@@ -15,10 +15,10 @@ public class IncrementDecrement
 	    int res1 = x++ + ++y;
 	    System.out.println("x="+x);
 		System.out.println("RESULT for is: "+res1);
-        
-		int res1 = x-- + --y;
+        System.out.println("_________________________________________");
+		int res2 = x-- + --y;
 	    System.out.println("x="+x);
-		System.out.println("RESULT for is: "+res1);
+		System.out.println("RESULT for is: "+res2);
 	}
 
 }
