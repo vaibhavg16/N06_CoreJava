@@ -6,9 +6,12 @@ public class CascadedIfElseIf {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter your age:");
+		System.out.println("Enter your age1 :");
+		
 		int age1=sc.nextInt();
+		System.out.println("Enter your age2 :");
 		int age2=sc.nextInt();
+		System.out.println("Enter your age3 :");
 		int age3=sc.nextInt();
 		
 		System.out.println("age 1 is:"+age1);
@@ -27,9 +30,7 @@ public class CascadedIfElseIf {
 		{
 			System.out.println("age 3 is greater");
 		}
-		
 		sc.close();
-
 	}
 
 }
