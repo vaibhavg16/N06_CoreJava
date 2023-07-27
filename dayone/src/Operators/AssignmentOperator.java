@@ -13,7 +13,7 @@ public class AssignmentOperator {
 		num1 *= num2;
 		
 		System.out.println("updated value of num1 is: "+ num1);
-
+		sc.close();
 	}
 
 }

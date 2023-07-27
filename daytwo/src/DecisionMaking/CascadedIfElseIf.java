@@ -2,7 +2,8 @@ package DecisionMaking;
 
 import java.util.Scanner;
 
-public class CascadedIfElseIf {
+public class CascadedIfElseIf 
+{
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
